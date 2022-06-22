@@ -1,0 +1,22 @@
+question,slot,state,template
+,,DS_REQ_USER_INPUT,안녕하세요! 날씨 미세먼지 여행 식당에 대해 물어봐주세요!
+야 먼지 알려주겠니,,DS_ANS_DUST_NLG,오늘 서울의 미세먼지는 좋음입니다.
+토요일 먼지 알려줘,DATE,DS_ANS_DUST_DATE_NLG,{DATE} 서울의 미세먼지는 나쁨입니다.
+전주 미세먼지 어떤지 말해줘,LOCATION,DS_ANS_DUST_LOCATION_NLG,오늘 {LOCATION}의 미세먼지는 좋음입니다.
+서울 다음 주 먼지 알려줄래요,LOCATION^DATE,DS_ANS_DUST_DATE_LOCATION_NLG,{DATE} {LOCATION}의 미세먼지는 나쁨입니다.
+주변 맛집 알고싶어,,DS_ANS_RESTAURANT_NLG,당신의 주변 추천 식당은 OOOO입니다.
+그럼 서천 양 꼬치 식당 추천해 줘,LOCATION^RESTAURANT,DS_ANS_RESTAURANT_LOCATION_RESTAURANT_NLG, 물어보신 {LOCATION}의 추천 {RESTAURANT}식당은 OOOO입니다.
+시흥 괜찮은 식당 추천해 주라,LOCATION,DS_ANS_RESTAURANT_LOCATION_NLG,{LOCATION} 주변의 추천 식당은 OOOO입니다.
+인기 많은 팥빵 빵집 추천 좀 해줄래,RESTAURANT,DS_ANS_RESTAURANT_RESTAURANT_NLG,{RESTAURANT}으로 유명한 식당은 OOOO입니다.
+어느 관광지 좋을까,,DS_ANS_TRAVEL_NLG,저의 추천 관광지는 XXXX입니다.
+인천 바다 보러 갈거 같아,PLACE,DS_ANS_TRAVEL_PLACE_NLG,{PLACE}의 추천 관광지는 XXXX입니다.
+쉬고 싶은데 갈만한 천안 구경거리 어디 갈까,LOCATION,DS_ANS_TRAVEL_LOCATION_NLG,{LOCATION}의 추천 관광지는 XXXX입니다.
+강원 오봉산 가을 연극 할래,LOCATION^PLACE^DATE,DS_ANS_TRAVEL_DATE_PLACE_LOCATION_NLG,{DATE} {LOCATION}의 {PLACE} 추천 관광지는 XXXX입니다.
+강원 오봉산 연극 할래,LOCATION^PLACE,DS_ANS_TRAVEL_PLACE_LOCATION_NLG, {LOCATION}의 {PLACE} 추천 관광지는 XXXX입니다.
+여름 갈만한 촬영장 알려주세요,DATE,DS_ANS_TRAVEL_DATE_NLG,{DATE}의 추천 관광지는 XXXX입니다.
+여름 여행지 알려줘,DATE^PLACE,DS_ANS_TRAVEL_DATE_PLACE_NLG,{DATE} {PLACE}의 추천 관광지는 XXXX입니다.
+다음 달 아마 충남 태안 놀러 가는데 어디 갈까,DATE^LOCATION,DS_ANS_TRAVEL_DATE_LOCATION_NLG,{DATE} {LOCATION}의 추천 관광지는 XXXX입니다.
+날씨 알려주겠니,,DS_ANS_WEATHER_NLG,오늘 서울의 날씨는 흐림입니다.
+아하 과천 날씨 맑을까,LOCATION,DS_ANS_WEATHER_LOCATION_NLG,오늘 {LOCATION}의 날씨는 흐림입니다.
+밀양 지금 기온 시원해,LOCATION^DATE,DS_ANS_WEATHER_DATE_LOCATION_NLG,{DATE} {LOCATION}의 날씨는 흐림입니다.
+모레 기온 알려줘,DATE,DS_ANS_WEATHER_DATE_NLG,{DATE} 서울의 날씨는 흐림입니다.

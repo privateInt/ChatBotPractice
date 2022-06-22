@@ -1,0 +1,38 @@
+question,label,slot
+야 먼지 알려주겠니,dust,
+토요일 먼지 알려줘,dust,DATE
+전주 미세먼지 어떤지 말해줘,dust,LOCATION
+지금 미세먼지 없니 현재,dust,DATE^DATE
+서울 다음 주 먼지 알려줄래요,dust,LOCATION^DATE
+토요일 서천 미세먼지 어떨까 좀 알려줄수 있니,dust,DATE^LOCATION
+완주 모레 동대구 황사 궁금해,dust,LOCATION^DATE^LOCATION
+구암 다음 주 미세먼지 상태 알려줘,dust,LOCATION^DATE^DATE
+이번 주 영등포 미세먼지 상태 줘,dust,DATE^DATE^LOCATION
+그럼 서천 양 꼬치 식당 추천해 줘,restaurant,LOCATION^RESTAURANT
+그럼 오늘 완주 가는데 매운탕 알려주라,restaurant,DATE^LOCATION^RESTAURANT
+주변 맛집 알고싶어,restaurant,
+시흥 괜찮은 식당 추천해 주라,restaurant,LOCATION
+인기 많은 팥빵 빵집 추천 좀 해줄래,restaurant,RESTAURANT
+마카롱 카페 달콤한 머랭쿠키,restaurant,RESTAURANT^RESTAURANT
+알리오 올리오 강남구 무한리필 먹을까,restaurant,RESTAURANT^LOCATION
+군산 일식집 무한리필 초밥 추천해줘,restaurant,LOCATION^RESTAURANT^RESTAURANT
+내일 화천 여행 가는데 원조 갈까,restaurant,DATE^LOCATION
+서울 꽃구경 가고 싶다고,travel,LOCATION^PLACE
+인천 바다 보러 갈거 같아,travel,PLACE
+어느 관광지 좋을까,travel,
+청주 가을 풍경 예쁜 산 가보고 싶어,travel,LOCATION^DATE^PLACE
+물놀이 하고 싶은데 현남면 갈만한 데 있어,travel,PLACE^LOCATION
+쉬고 싶은데 갈만한 천안 구경거리 어디 갈까,travel,LOCATION
+강원 오봉산 가을 연극 할래,travel,LOCATION^PLACE^DATE^PLACE
+여름 갈만한 촬영장 알려주세요,travel,DATE
+주변 꽃 핀 공원 있으면 알려줘,travel,PLACE^PLACE
+여름 여행지 알려줘,travel,DATE^PLACE
+다음 달 아마 충남 태안 놀러 가는데 어디 갈까,travel,DATE^LOCATION
+경상남도 유명한 곳 어디 있니 내일 여행 가거든,travel,LOCATION^DATE
+날씨 알려주겠니,weather,
+아하 과천 날씨 맑을까,weather,LOCATION
+밀양 지금 기온 시원해,weather,LOCATION^DATE
+모레 기온 알려줘,weather,DATE
+내일 부산 우산 써야해,weather,DATE^LOCATION
+완주 모레 동대구 날씨 궁금해,weather,LOCATION^DATE^LOCATION
+나 내일 가는데 다음 주 전주 비 오려나,weather,DATE^DATE^LOCATION
